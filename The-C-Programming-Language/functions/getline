@@ -7,7 +7,7 @@ int getline(char s[], int lim)
 	int c, i; // c暂时存储输入的值。i记录该行文本的个数
 
 	i = 0;
-	while (--lim > 0 && (c = getchar()) != '`' && c != '\n')
+	while (--lim > 0 && (c = getchar()) != EOF && c != '\n')
 		s[i++] = c;
 	if (c == '\n')
 		s[i++] = c;
