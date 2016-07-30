@@ -1,3 +1,4 @@
+
 // 可以将输入的单词或者数字给保存到word中
 int getword(char *word, int lim)
 {
