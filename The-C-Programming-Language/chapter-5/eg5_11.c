@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-#define MAXLINES	5000
+#define MAXLINES 	5000
 #define MAXSIZE		100
 char *lineptr[MAXLINES];
 
